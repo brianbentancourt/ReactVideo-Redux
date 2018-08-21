@@ -18,6 +18,9 @@ const initialState = [
   },
   {
     "title": "Seven nation army",
+  },
+  {
+    "title": "Kotikonnut",
   }
 ]
 

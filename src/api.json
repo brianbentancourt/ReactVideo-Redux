@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Lista de favoritos",
+      "description": "Destacados",
+      "playlist": [
+        {
+          "title": "Vikings",
+          "text": "Las aventuras de Ragnar Lothbrok, un vikingo agricultor, mientras asciende para convertirse en el rey de los vikingos.",
+          "type": "video",
+          "cover": "https://okdiario.com/img/series/2017/09/07/vikings-e1504798776156.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/230/original/travelpockets_iceland_land_of_fire_and_ice.mp4",
+          "id": 1
+        },
+        {
+          "title": "13 Reasons Why",
+          "text": "Después de que una mujer joven se quite la vida, su compañero de clase encuentra una misteriosa caja en su patio.",
+          "type": "video",
+          "cover": "https://cdn.shopify.com/s/files/1/0747/3829/products/mL0909_e3e015ea-68d0-4d78-988b-0a815c826873_1024x1024.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+          "id": 2
+        },
+        {
+          "title": "Better call Saul",
+          "text": "La vida del peculiar abogado Saul Goodman mientras defiende a narcotraficantes en particular, y a toda suerte de criminales en general.",
+          "type": "video",
+          "cover": "http://www.indiehoy.com/wp-content/uploads/2017/06/better-call-saul-640x430.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Breaking bad",
+          "text": "Walter White un profesor de química de secundaria agobiado por problemas económicos para sostener a su familia y con un cáncer terminal, toma una decisión para ganar dinero y transforma un viejo vehículo en un laboratorio de metanfetaminas rodante.",
+          "type": "video",
+          "cover": "http://4.bp.blogspot.com/-kyROylk8Xn0/UR1Kadj-YZI/AAAAAAAAAKE/fNQw_tFwORc/s1600/Breaking-Bad-Season-4.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/225/original/andrew-arthur-breese_boneyard-raw-broll.mp4",
+          "id": 4
+        },
+        {
+          "title": "Dark",
+          "text": "La desaparición de dos niños muestra los vínculos entre cuatro familias y expone el pasado de una pequeña ciudad.",
+          "type": "video",
+          "cover": "https://d25pcrmm4mxkj0.cloudfront.net/wp-content/uploads/2017/11/16114216/dark1.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/220/original/the_valley-graham_uheslki.mp4",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Sugerencias",
+      "description": "Nuevos capitulos",
+      "playlist": [
+        {
+          "title": "Game of thrones",
+          "text": "Esta serie, basada en los libros de George R.R. Martin, muestra la competencia entre familias nobles de siete reinos de Westeros, cuya finalidad es ganar el control sobre el Trono de Hierro",
+          "type": "video",
+          "cover": "http://elbilluyo.com/wp-content/uploads/2016/12/GOT2.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/214/preview_mp4_2/finn-karstens_winter-wonderland-kiel.mp4",
+          "id": 1
+        },
+        {
+          "title": "Hannibal",
+          "text": "El criminólogo Will Graham se une al Dr. Hannibal Lecter para detener a asesinos en serie.",
+          "type": "video",
+          "cover": "http://images6.fanpop.com/image/photos/36300000/Hannibal-television-series-image-hannibal-television-series-36351721-800-600.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/187/original/30265418.mp4",
+          "id": 2
+        },
+        {
+          "title": "La casa de papel",
+          "text": "Una banda organizada de ladrones se propone cometer el atraco del siglo en la Fábrica Nacional de Moneda y Timbre. Cinco meses de preparación quedarán reducidos a once días para poder llevar a cabo con éxito el gran golpe.",
+          "type": "video",
+          "cover": "https://cde.laprensa.e3.pe/ima/0/0/1/9/1/191399.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/183/original/a_sky_full_of_stars.mp4",
+          "id": 3
+        },
+        {
+          "title": "Lost",
+          "text": "Los sobrevivientes de un accidente aéreo luchan por subsistir en una exuberante y deshabitada isla en donde cada persona tiene un secreto asombroso.",
+          "type": "video",
+          "cover": "https://i.blogs.es/eaadd0/lost_logo/450_1000.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/172/original/mediagl--dogsledding_in_greenland.mp4",
+          "id": 4
+        },
+        {
+          "title": "Stranger things",
+          "text": "Cuando un niño desaparece, sus amigos, la familia y la policía se ven envueltos en una serie de eventos misteriosos al tratar de encontrarlo. Su ausencia coincide con el avistamiento de una criatura terrorífica y la aparición de una extraña niña.",
+          "type": "video",
+          "cover": "https://nerdist.com/wp-content/uploads/2017/11/Stranger_Things_S2_news_Images_V03-1024x481.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/064/original/see-ming_lee--everchanging_cloudscape.mp4",
+          "id": 5
+        },
+        {
+          "title": "Vis a vis",
+          "text": "Macarena es una joven frágil e inocente que entra en la cárcel a la espera de un juicio por un delito de malversación. En prisión, ingresará a un mundo peligroso, completamente diferente a lo que conocía, que la obligará a evolucionar a la fuerza.",
+          "type": "video",
+          "cover": "https://fotografias.antena3.com/clipping/cmsimages02/2016/03/29/DEE3F0CF-BCAB-4F73-8817-711A9174E673/58.jpg",
+          "src": "http://mazwai.com/system/posts/videos/000/000/037/original/Black_Ink_--FREE_FOOTAGE--HD.mp4",
+          "id": 6
+        }
+      ]
+    }
+  ]
+}

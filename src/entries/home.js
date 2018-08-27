@@ -4,11 +4,30 @@ import { render } from 'react-dom'; // reactDom renderiza componentes y elemento
 import Home from '../pages/containers/home';
 import data from '../api.json';
 
+import { Provider } from 'react-redux';
+
+import { createStore } from 'redux';
+
+const initialState = {
+  data:{
+    ...data
+  }
+}
+
+const store = createStore(
+  (state) => state,
+  initialState,
+  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+)
+
+console.log(store.getState());
+
 const homeContainer = document.getElementById('home-container');
 
-// ReactDOM.render(que voy a renderizar, donde lo haré)
-// al renderizar, react sabe que contiene < /> y por eso sabe que es un componente, por ejemplo ReactDOM.render(<Media />,app);
 
-render(<Home data={data} />, homeContainer);
-
-
+render(
+  <Provider store={store}>
+    <Home />
+  </Provider>,
+  homeContainer
+ );

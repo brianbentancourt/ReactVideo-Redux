@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Lista de favoritos",
       "description": "Destacados",
       "playlist": [
@@ -11,7 +11,7 @@
           "type": "video",
           "cover": "https://okdiario.com/img/series/2017/09/07/vikings-e1504798776156.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/230/original/travelpockets_iceland_land_of_fire_and_ice.mp4",
-          "id": 1
+          "id": "1"
         },
         {
           "title": "13 Reasons Why",
@@ -19,7 +19,7 @@
           "type": "video",
           "cover": "https://cdn.shopify.com/s/files/1/0747/3829/products/mL0909_e3e015ea-68d0-4d78-988b-0a815c826873_1024x1024.jpg",
           "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
-          "id": 2
+          "id": "2"
         },
         {
           "title": "Better call Saul",
@@ -27,7 +27,7 @@
           "type": "video",
           "cover": "http://www.indiehoy.com/wp-content/uploads/2017/06/better-call-saul-640x430.jpg",
           "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
-          "id": 3
+          "id": "3"
         },
         {
           "title": "Breaking bad",
@@ -35,7 +35,7 @@
           "type": "video",
           "cover": "http://4.bp.blogspot.com/-kyROylk8Xn0/UR1Kadj-YZI/AAAAAAAAAKE/fNQw_tFwORc/s1600/Breaking-Bad-Season-4.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/225/original/andrew-arthur-breese_boneyard-raw-broll.mp4",
-          "id": 4
+          "id": "4"
         },
         {
           "title": "Dark",
@@ -43,12 +43,12 @@
           "type": "video",
           "cover": "https://d25pcrmm4mxkj0.cloudfront.net/wp-content/uploads/2017/11/16114216/dark1.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/220/original/the_valley-graham_uheslki.mp4",
-          "id": 5
+          "id": "5"
         }
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "Sugerencias",
       "description": "Nuevos capitulos",
       "playlist": [
@@ -58,7 +58,7 @@
           "type": "video",
           "cover": "http://elbilluyo.com/wp-content/uploads/2016/12/GOT2.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/214/preview_mp4_2/finn-karstens_winter-wonderland-kiel.mp4",
-          "id": 1
+          "id": "6"
         },
         {
           "title": "Hannibal",
@@ -66,7 +66,7 @@
           "type": "video",
           "cover": "http://images6.fanpop.com/image/photos/36300000/Hannibal-television-series-image-hannibal-television-series-36351721-800-600.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/187/original/30265418.mp4",
-          "id": 2
+          "id": "7"
         },
         {
           "title": "La casa de papel",
@@ -74,7 +74,7 @@
           "type": "video",
           "cover": "https://cde.laprensa.e3.pe/ima/0/0/1/9/1/191399.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/183/original/a_sky_full_of_stars.mp4",
-          "id": 3
+          "id": "8"
         },
         {
           "title": "Lost",
@@ -82,7 +82,7 @@
           "type": "video",
           "cover": "https://i.blogs.es/eaadd0/lost_logo/450_1000.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/172/original/mediagl--dogsledding_in_greenland.mp4",
-          "id": 4
+          "id": "9"
         },
         {
           "title": "Stranger things",
@@ -90,7 +90,7 @@
           "type": "video",
           "cover": "https://nerdist.com/wp-content/uploads/2017/11/Stranger_Things_S2_news_Images_V03-1024x481.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/064/original/see-ming_lee--everchanging_cloudscape.mp4",
-          "id": 5
+          "id": "10"
         },
         {
           "title": "Vis a vis",
@@ -98,7 +98,7 @@
           "type": "video",
           "cover": "https://fotografias.antena3.com/clipping/cmsimages02/2016/03/29/DEE3F0CF-BCAB-4F73-8817-711A9174E673/58.jpg",
           "src": "http://mazwai.com/system/posts/videos/000/000/037/original/Black_Ink_--FREE_FOOTAGE--HD.mp4",
-          "id": 6
+          "id": "11"
         }
       ]
     }

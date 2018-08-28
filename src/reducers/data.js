@@ -1,11 +1,16 @@
 function data(state, action){
   switch(action.type){
     case 'SEARCH_VIDEO':{
-      const results = state.data.categories.map((cat)=>{
-        cat.playlist.filter((item) => {
-          return item.title.includes(action.payload.query)
+      let results = [];
+      if (action.payload.query) {
+        const categories = state.data.categories
+        categories.map(category => {
+          let tempResults = category.playlist.filter(item => {
+            return item.title.toLowerCase().includes(action.payload.query.toLowerCase())
+          })
+          results = results.concat(tempResults)
         })
-      })
+      }
       return {
         ...state,
         search:results

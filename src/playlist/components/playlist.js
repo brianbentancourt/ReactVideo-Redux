@@ -1,24 +1,25 @@
 import React from 'react';
-import Media from './media.js'
+// import Media from './media.js'
+import MediaContainer from '../containers/media.js';
 import './playlist.css';
 
 function Playlist(props){
 	return(
 			<div className="Playlist">
-				<h3> {props.title}</h3>
-				<p> {props.description}</p>
+				{/* <h3> {props.title}</h3>
+				<p> {props.description}</p> */}
 					{
-						props.playlist.map((item)=> {
+						props.playlist.map((mediaId)=> {
 							return(
-									<Media 
+									<MediaContainer
 										openModal={props.handleOpenModal}
-										{...item} 
-										key={item.id} 
+										id={mediaId}
+										key={mediaId}
 									/>
-								) 
+								)
 						})
 					}
-				
+
 			</div>
 		)
 }
@@ -34,15 +35,15 @@ class Playlist extends Component{
 					{
 						this.props.playlist.map((item)=> {
 							return(
-									<Media 
+									<Media
 										handleClick={this.props.handleOpenModal}
-										{...item} 
-										key={item.id} 
+										{...item}
+										key={item.id}
 									/>
-								) 
+								)
 						})
 					}
-				
+
 			</div>
 			)
 	}

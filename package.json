@@ -39,6 +39,7 @@
   },
   "homepage": "https://github.com/brianbentancourt/ReactVideo#readme",
   "dependencies": {
+    "normalizr": "^3.2.4",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

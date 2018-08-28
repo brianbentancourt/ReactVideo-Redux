@@ -7,11 +7,12 @@ import data from '../api.json';
 import { Provider } from 'react-redux';
 
 import { createStore } from 'redux';
-import reducer from './reducers/data';
+import reducer from '../reducers/data';
 
 const initialState = {
   data:{
-    ...data
+    ...data,
+    search:[]
   }
 }
 

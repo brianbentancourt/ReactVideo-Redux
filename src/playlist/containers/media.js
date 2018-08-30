@@ -9,7 +9,9 @@ class MediaContainer extends Component{
 }
 
 function mapStateToProps(state, props){
-  data: state.data.entities.media[props.id]
+  return{
+    data: state.data.entities.media[props.id]
+  }
 }
 
 export default connect(mapStateToProps)(MediaContainer)

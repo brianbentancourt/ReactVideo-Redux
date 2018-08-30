@@ -3,26 +3,18 @@ import { render } from 'react-dom'; // reactDom renderiza componentes y elemento
 //import Categories from './src/playlist/components/categories'
 import Home from '../pages/containers/home';
 // import data from '../api.json';
-
 import data from '../schemas/index.js'
 import { Provider } from 'react-redux';
 
 import { createStore } from 'redux';
-import reducer from '../reducers/data';
+import reducer from '../reducers/index';
 
-console.log(data);
+// console.log(data);
 
-const initialState = {
-  data:{
-    entities: data.entities,
-    categories: data.result.categories
-  },
-  search:[]
-}
 
 const store = createStore(
   reducer,
-  initialState,
+  {},
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 

@@ -8,12 +8,12 @@ class Media extends Component{
 	}
 
 	handleClick = (event) =>{
-		this.props.openModal(this.props);
+		this.props.openModal(this.props.id);
 	}
 
 	render(){
 		const styles = {
-			container:{ 
+			container:{
 				color: '#44546b',
 				cursor: 'pointer',
 				width: 260,

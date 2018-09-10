@@ -7,23 +7,36 @@ import Modal from '../../widgets/components/modal';
 import HandleError from '../../error/containers/handle-error';
 import VideoPlayer from '../../player/containers/video-player';
 import { connect } from 'react-redux';
+import { List as list } from 'immutable';
 
 class Home extends Component{
-	state = {
-		modalVisible: false,
-		media: null
-	}
+	// state = {
+	// 	modalVisible: false,
+	// 	media: null
+	// }
 
-	handleOpenModal= (media) =>{
-		this.setState({
-			modalVisible: true,
-			media
+	// handleOpenModal= (media) =>{
+	// 	this.setState({
+	// 		modalVisible: true,
+	// 		media
+	// 	})
+	// }
+
+	handleOpenModal= (id) =>{
+		this.props.dispatch({
+			type: 'OPEN_MODAL',
+			payload:{
+				mediaId: id
+			}
 		})
 	}
 
 	hadleCloseModal= (event) =>{
-		this.setState({
-			modalVisible: false,
+		// this.setState({
+		// 	modalVisible: false,
+		// })
+		this.props.dispatch({
+			type:'CLOSE_MODAL'
 		})
 	}
 
@@ -38,13 +51,14 @@ class Home extends Component{
 							search={this.props.search}
 			      	/>
 			    	{
-			    		this.state.modalVisible &&
+			    		this.props.modal.get('visibility') &&
 				    		<ModalContainer >
 					    		<Modal handleClick={this.hadleCloseModal}>
 					    			<VideoPlayer
 										autoplay={true}
-										src={this.state.media.src}
-										title={this.state.media.title}
+										id={this.props.modal.get('mediaId')}
+										// src={this.state.media.src}
+										// title={this.state.media.title}
 									/>
 					    		</Modal>
 					    	</ModalContainer>
@@ -62,9 +76,19 @@ function mapStateToProps(state, props) {
 		return state.get('data').get('entities').get('categories').get(categoryId)
 	})
 
+	let searchResults= list()
+	const search = state.get('data').get('search')
+	if(search){
+		const mediaList = state.get('data').get('entities').get('media')
+		searchResults = mediaList.filter((item)=>{
+			return item.get('title').toLowerCase().includes(search)
+		}).toList()
+	}
+
   return {
     categories: categories,
-    search: state.get('data').get('search')
+    search: searchResults,
+		modal: state.get('modal')
   }
 
 }

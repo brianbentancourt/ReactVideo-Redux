@@ -13,7 +13,7 @@ class SearchContainer extends Component{
 		this.props.dispatch({
 			type: 'SEARCH_VIDEO',
 			payload:{
-				query: this.input.value,
+				query: this.input.value.toLowerCase(),
 			}
 		})
 	}
@@ -24,7 +24,7 @@ class SearchContainer extends Component{
 
 	handleInputChange = event =>{
 		this.setState({
-			value:event.target.value.replace(' ', '-')
+			value:event.target.value //event.target.value.replace(' ', '-')
 		})
 	}
 

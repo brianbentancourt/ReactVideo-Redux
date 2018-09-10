@@ -8,13 +8,14 @@ import { Provider } from 'react-redux';
 
 import { createStore } from 'redux';
 import reducer from '../reducers/index';
+import { Map as map } from 'immutable';
 
 // console.log(data);
 
 
 const store = createStore(
   reducer,
-  {},
+  map(),
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 

@@ -10,15 +10,23 @@ function Categories(props){
             <Search />
           {
             props.search.map((item)=>{console.log(item);
-              return <Media {...item} key={item.id} />
+              //return <Media {...item.toJS()} key={item.get('id')}/> // genera un objeto nuevo con toJS() cada vez que lo llamamos
+              return <Media
+                        title={item.get('title')}
+                        text={item.get('text')}
+                        cover={item.get('cover')}
+                        key={item.get('id')}
+                      />
             })
           }
             {
                 props.categories.map((item) => {
                     return(
                     		<Category
-                    			key={item.id}
-                    			{...item}
+                    			key={item.get('id')}
+                    			description={item.get('description')}
+                          title={item.get('title')}
+                          playlist={item.get('playlist')}
                     			handleOpenModal={props.handleOpenModal}
                     		/>
                     	)
